@@ -11,6 +11,7 @@ def test_api_put():
         "User-Agent": "request",
         "Content-Type": "application/json",
     }
+    # caso houver atenticação, ela deve ser passada através do header.
 
     id = 83
 
